@@ -1,0 +1,5 @@
+let string="Hi i am Javascript"
+let length= string.length
+let result=string.reverse()
+console.log(result)
+console.log(length)
