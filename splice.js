@@ -4,3 +4,4 @@ console.log(numbers)
 var out=numbers.splice(1,3)
 console.log(out)
 
+
