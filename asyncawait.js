@@ -18,28 +18,28 @@ let stocks={
 
 async function kitchen(){
     try{
-        await time(2000);
+       await  time(2000);
         console.log(`${stocks.fruits[3]} was selected`)
 
-        await time(0000);
-        console.log("start production")
+         await time(0000);
+         console.log("start production")
 
-        await time(2000)
-        console.log("fruit was chopped")
+         await time(2000)
+         console.log("fruit was chopped")
 
-        await time(1000)
-        console.log(`${stocks.liquid[0]} and ${stocks.liquid[1]} was added`)
+         await time(1000)
+         console.log(`${stocks.liquid[0]} and ${stocks.liquid[1]} was added`)
 
-        await time(1000)
-        console.log("start the machine")
+         await time(1000)
+         console.log("start the machine")
 
-        await time(2000)
-        console.log(`${stocks.holder[0]} was selected to  fill icecream `)
+         await time(2000)
+         console.log(`${stocks.holder[0]} was selected to  fill icecream `)
 
-        await time(3000)
-        console.log(`${stocks.toppings[1]} selected as toppings`)
+         await time(3000)
+         console.log(`${stocks.toppings[1]} selected as toppings`)
 
-        console.log("ice cream served")
+         console.log("ice cream served")
 
     }catch(error){
         console.log("customer left"),error
