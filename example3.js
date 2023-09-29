@@ -1,11 +1,23 @@
-function secondlargeststring(arr){
-    let newarray = []
-    for(i=0;i<arr.length;i++)
-    {
-        if(arr[i].length)
-    }
-    
-  
-}
 const arr=["dog","guards","our","home"]
 secondlargeststring(arr)
+function secondlargeststring(arr){
+
+    for(i=0;i<arr.length;i++)
+    {
+        for(j=0;j<arr.length;j++)
+        {
+
+            if((arr[j].length)>(arr[j+1].length))
+            {
+                let temp=arr[j]
+                arr[j]=arr[j+1]
+                arr[j+1]=temp
+            }
+        }
+    }
+    console.log(arr)
+    console.log(arr[length-2])
+
+  
+}
+
